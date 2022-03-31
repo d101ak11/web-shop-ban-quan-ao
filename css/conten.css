@@ -1,0 +1,163 @@
+.content{
+    padding: 10px 0 36px 0px;
+}
+.phongcachcuaban{
+    background-color: #90e3e3;
+    padding: 58px 0;
+}
+.content__phongcach{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.phongcachcuaban h3{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 27px;
+}
+.phongcach{
+    position: relative;
+    width: 270px;
+    margin: 10px;
+}
+.phongcach img{
+
+}
+.phongcach a{
+    font-size: 17px;
+    background: #eeeaea;
+    padding: 26px;
+    margin-left: 57px;
+}
+/* thoi trang nu */
+.thoitrangnu{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.thoitrangnu h3{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.nu{
+ display: flex;
+}
+.content__nu{
+    width: 260px;
+    height: 400px;
+    margin: 0 40px 20px 0px;
+    background: whitesmoke;
+}
+.content__nu a > img{
+    width: 258px;
+    height: 295px;
+}
+.content__nu a > h4{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 13px;
+}
+.content__nu a{
+   
+}
+.content__nu a > p{
+    color: #1b75d1;
+    font-weight: 600;
+    text-align: center;
+}
+/* img */
+.img{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 70px 0px 70px 0px;
+}
+.img__left{
+}
+#img img{
+    padding: 10px 25px 5px 0px;
+}
+.img__right img{
+    margin-left: 28px;
+}
+/* thoi trang nam */
+.thoitrangnam{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.thoitrangnam h3{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    padding: 30px 0;
+}
+.img__buttom{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+.img__buttom img{
+    width: 1160px;
+    height: auto;
+}
+.tintuc{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tintuc h3{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.content__tintuc{
+    display: flex;
+    
+}
+.content__buttom{
+    width: 358px;
+    margin: 32px 48px 32px 0px;
+}
+.content__buttom img {
+    width: 358px;
+}
+.content__buttom p{
+    font-size: 17px;
+    font-weight: 900;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #00000052;
+}
+.content__buttom h4{
+    padding: 10px;
+    text-align: left;
+    font-weight: 100;
+}
+.ke{
+    width: 100%;
+    border: 1px solid black;
+}
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 81px 0 81px 0 ;
+}
+.content__footer{
+    width: 335px;
+    padding: 26px;
+    margin: 0 68px 0 0px;
+}
+.content__footer p{
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 600;
+}
+.content__footer li{
+    line-height: 23px;
+    /* list-style: none; */
+    list-style-type: circle;
+}
