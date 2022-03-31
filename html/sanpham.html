@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sanpham.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/thoitrangnu.css">
+
+    <title>shoppe</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+          <div class="header__left">
+              <img src="../img/logo.png" alt="">
+              <ul>
+                  <li><a href="../index.html">TRANG CHỦ</a></li>
+                  <li><a href="#">GIỚI THIỆU</a></li>
+                  <li><a href="#">SHOP ONLINE </a>
+                  </li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">LIÊN HỆ</a></li>
+              </ul>
+          </div>
+          <div class="header__right">
+              <input type="text" placeholder="Tìm kiếm">
+              <button>search</button>
+          </div>
+        </div>
+      </header>
+    <div class="content__top">
+        <a href="../index.html">Trang chủ</a>
+        <span>></span>
+        <a href="./thoitrangnu.html">Thời trang nữ</a>
+    </div>
+    <div class="content">
+        <div class="content__left">
+            <div id="one" class="img">
+                <img src="../img/nu1.jpg" alt="">
+            </div>
+            <div id="two" class="img" style="display:none">
+                <img src="../img/nu2.jpg" alt="">
+            </div>
+            <div id="there" class="img" style="display:none">
+                <img src="../img/nu3.jpg" alt="">
+            </div>
+            <div id="4" class="img" style="display:none">
+                <img src="../img/nu3.jpg" alt="">
+            </div>
+            <div id="5" class="img" style="display:none">
+                <img src="../img/homev4.jpg" alt="">
+            </div>
+            <div class=" w3-black">
+                <img src="../img/nu1.jpg" width="50px" height="50px" alt="" onclick="openCity('one')">
+                <img src="../img/nu2.jpg" width="50px" height="50px" alt="" onclick="openCity('two')">
+                <img src="../img/nu3.jpg" width="50px" height="50px" alt="" onclick="openCity('there')">
+                <img src="../img/nu4.jpg" width="50px" height="50px" alt="" onclick="openCity('4')">
+                <img src="../img/nu1.jpg" width="50px" height="50px" alt="" onclick="openCity('5')">
+            </div>
+        </div>
+        <div class="content__right">
+            <h3><span id="yt">Yêu thích</span>Áo thun thể thao nữ tay dài iBasic màu đen</h3>
+            <h1>300 usd</h1>
+            <p><span>Deal Sốc </span>Mua để nhận quà</p>
+            <p><span> Màu sắc tươi tắn, kiểu dáng năng động dễ dàng phối hợp với nhiều loại trang phục, mang đến cho bạn
+                    1 phong cách thời trang đầy cá tính mỗi khi xuống phố hay tập thể thao.17</span></p>
+            <p><span>doanh mục </span>Thời trang nữ</p>
+            <div class="buttom__right">
+                <span>Só lượng</span> <input type="button" value="+">
+                <input type="input" value="1" id="number">
+                <input type="button" value="-" onclick="var()">
+                <br>
+                <span>20 sản phẩm có sắn</span>
+            </div>
+            <div class="botton">
+                <input type="button" value="Thêm vào giỏ hàng" class="hover">
+                <input type="button" value="Mua ngay" id="now">
+            </div>
+        </div>
+    </div>
+    <div class="mota">
+        <h2>Mô tả chi tiết</h2>
+        <div id="mo_ta">
+            <p><span>Bộ sưu tập quần short thể thao nam Colo</span>
+                được may từ chất liệu vải cao cấp, khả năng co giãn tốt, thông thoáng, giúp bạn thoải mái trong mọi hoạt
+                động. Sản phẩm có kiểu dáng trẻ trung, năng động, đem đến cho bạn một phong cách thời trang sành điệu.
+                Ngoài ra, thương hiệu rất chú trọng đến chất liệu sao cho sản phẩm không chỉ đẹp, thời trang mà còn có
+                độ bền cao.</p>
+            <p>Màu sắc tươi tắn, kiểu dáng năng động dễ dàng phối hợp với nhiều loại trang phục, mang đến cho bạn 1
+                phong cách thời trang đầy cá tính mỗi khi xuống phố hay tập thể thao.</p>
+        </div>
+    </div>
+</div>
+<div class="comment">
+    <h2>Đáng giá sản phẩm</h2>
+    <div class="cmt">
+    <img src="../img/avata1.jpg" alt="">
+       <div id="cmt">
+            <h3>Đức NGuyễn</h3>
+        <p> sản phẩm tốt hơn mong đợi</p></div>
+    </div>
+    <div class="cmt">
+    <img src="../img/avata3.jpg" alt="">
+       <div id="cmt">
+            <h3>not Pug</h3>
+        <p>hàng ok , chất lượng cao mọn người lên dùng thử nhé</p></div>
+    </div>
+    <div class="cmt">
+    <img src="../img/avata2.jpg" alt="">
+       <div id="cmt">
+            <h3>Hà</h3>
+        <p> Hàng đạt chuẩn , phù hợp với giá tiền </p></div>
+    </div>
+    <div class="cmt">
+    <img src="../img/avata1.jpg" alt="">
+       <div id="cmt">
+            <h3>lolicon</h3>
+        <p> sản phẩm tốt  tai nghe chất lượng cao</p></div>
+    </div>
+   <textarea name="" id="" cols="30" rows="10" placeholder="Commment tại đây"></textarea>
+   <br>
+   <button>Submit</button>
+</div>
+<div class="sapnphamlienquan">
+         <h2>Sản phầm liên quan</h2>
+        </div>
+ <div class="nu">
+        <div class="content__nu">
+            <a href="#">
+                <img src="../img/nu2.jpg" alt="">
+                <h4>áo thun thể thao nữ tay dài iBasic màu đen</h4>
+                <p>300 usd</p>
+            </a>
+        </div>
+        <div class="content__nu">
+            <a href="#">
+                <img src="../img/nu3.jpg" alt="">
+                <h4>áo thun thể thao nữ tay dài iBasic màu đen</h4>
+                <p>300 usd</p>
+            </a>
+        </div>
+        <div class="content__nu">
+            <a href="#">
+                <img src="../img/nu4.jpg" alt="">
+                <h4>áo thun thể thao nữ tay dài iBasic màu đen</h4>
+                <p>300 usd</p>
+            </a>
+        </div><div class="content__nu">
+            <a href="#">
+                <img src="../img/nu4.jpg" alt="">
+                <h4>áo thun thể thao nữ tay dài iBasic màu đen</h4>
+                <p>300 usd</p>
+            </a>
+        </div>
+    </div>
+    <div class="nu">
+        <div class="content__nu">
+            <a href="../html/sanpham.html">
+                <img src="../img/image_ab_1.jpg" alt="">
+                <h4>áo thun thể thao nữ tay dài iBasic màu đen</h4>
+                <p>300 usd</p>
+            </a>
+        </div>
+        <div class="content__nu">
+            <a href="../html/sanpham.html">
+                <img src="../img/image_ab_2.jpg" alt="">
+                <h4>Quần dài thể thao Anta màu đen</h4>
+                <p>100 usd</p>
+            </a>
+        </div>
+        <div class="content__nu">
+            <a href="../html/sanpham.html">
+                <img src="../img/homev3.jpg" alt="">
+                <h4>Áo thể thao tay ngắn IBasic mày hòng</h4>
+                <p>50 usd</p>
+            </a>
+        </div>
+        <div class="content__nu">
+            <a href="../html/sanpham.html">
+                <img src="../img/image_ab_4.jpg" alt="">
+                <h4>áo thun thể thao nữ tay ngắn iBasic màu đen</h4>
+                <p>300 usd</p>
+            </a>
+        </div>
+    </div>
+    <div class="nu">
+        <div class="content__nu">
+            <a href="../html/sanpham.html">
+                <img src="../img/image_ab_4.jpg" alt="">
+                <h4>áo thun thể thao nam tay dài iBasic màu đen</h4>
+                <p>350 usd</p>
+            </a>
+        </div>
+        <div class="content__nu">
+            <a href="../html/sanpham.html">
+                <img src="../img/image_ab_3.jpg" alt="">
+                <h4> Áo thể thao Anta màu đen</h4>
+                <p>100 usd</p>
+            </a>
+        </div>
+        <div class="content__nu">
+            <a href="../html/sanpham.html">
+                <img src="../img/image_ab_2.jpg" alt="">
+                <h4>Áo thể thao tay ngắn IBasic màu đen</h4>
+                <p>500 usd</p>
+            </a>
+        </div>
+        <div class="content__nu">
+            <a href="../html/sanpham.html">
+                <img src="../img/image_ab_1.jpg" alt="">
+                <h4>áo thun thể thao nữ tay ngắn iBasic màu đen</h4>
+                <p>300 usd</p>
+            </a>
+        </div>
+    </div>
+</div>
+    <div style="border-top: 1px solid gray;"></div>
+    <footer>
+        <div class="content__footer">
+            <p>HOTLINE : 0967750582</p>
+            <ul>
+                <li>Chính sách bảo mật của Not pug</li>
+                <li> Thời trang nữ</li>
+                <li>® Bản quyền thuộc thời trang K&K Fashion</li>
+                <li>Powered by SAGO</li>
+            </ul>
+        </div>
+        <div class="content__footer">
+            <p>THÔNG TIN LIÊN HỆ</p>
+            <ul>
+                <li>Về chúng tôi</li>
+                <li> Thời trang nữ</li>
+                <li>Liên hệ</li>
+                <li>Hệ thống 13 chi nhánh</li>
+            </ul>
+        </div>
+        <div class="content__footer">
+            <p>HOTLINE : 0967750582</p>
+            <ul>
+                <li>Đăng ký để nhận Special Offers từ K&K Fashion</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
