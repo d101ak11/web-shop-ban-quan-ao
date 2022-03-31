@@ -74,9 +74,11 @@
     display: flex;
     padding: 70px 0px 70px 0px;
 }
-.img__left{
+.img__left img{
+    width: 1143px;
 }
 #img img{
+    width: 584px;
     padding: 10px 25px 5px 0px;
 }
 .img__right img{
